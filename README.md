@@ -1,1 +1,1 @@
-# ajregator_admin
+Проект Ajregator личный кабинет администратора  
