@@ -1,4 +1,66 @@
-.Aut__inner{
-    padding-top: 125px;
+.Aut__main{
+    width: 100%;
+    .Aut__inner{
+    padding-top: 25%;
     width: 100%; 
+    position: relative;
+    }
+}
+.navR{
+    display: none;
+}
+form{
+    padding-top: 0px;
+    width: 100%;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+   label{
+     display: flex;
+    width: 100%;
+    justify-content: center;
+   }
+}
+.button__div{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    .button{
+        margin: 0;
+        padding: 0;
+        border: none;
+    border-radius: 8px;
+        input{
+            border: none;
+            background-color: #4E78E2;
+            width: 180px;
+            height: 50px;
+            border-radius: 5px;
+        }
+    }
+}
+.field{
+    border: 2px #6363F5 solid;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: none;
+    width: 240px;
+    height: 50px;
+    
+}
+.marg{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.images1{
+    position: absolute;
+    left: 0;
+    top: 200px;
+    z-index: -1;
+}
+.images2{
+    position: absolute;
+    right: 20px;
+    top: 275px;
+    z-index: -1;
 }

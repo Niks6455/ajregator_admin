@@ -1,15 +1,16 @@
-@import './../../../scss/color.scss';
 
 .footer__inner{
     display: flex;
     justify-content: space-between;
-    background: $blue;
+    background: #4E78E2;
     height: 150px;
     width: 100%;
     box-shadow: 0px 1px 10px 5px #5e5d5d; 
     color: #ffffff;
     padding: 30px 10px;
-    
+    position: absolute;
+    bottom: 0;
+    left: 0;
     .footer__logo{
         text-align: left;
         margin-right: 15px;
