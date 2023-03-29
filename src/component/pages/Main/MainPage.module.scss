@@ -2,6 +2,14 @@
   padding: 0;
   margin: 0;
   .MainPage__inner{
-    padding-top: 100px;
+    padding-top: 80%;
+     display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+    Button{
+     margin: 8px;
+     border-radius:10px ;
+    }
   }
 }
